@@ -1,4 +1,81 @@
-p{
-    font-size: 28px;
-    color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor-destaque:pink;
+    
+}
+
+:root{
+    --tamanho-da-fonte:20px;
+}
+
+h2{
+    font-size: var(--tamanho-da-fonte);
+    color: var(--cor-destaque);
+}
+
+h4{
+    font-size: var(--tamanho-da-fonte);
+    color: var(--cor-destaque);
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#diva_px{
+    width: 300px;
+    background-color: orange;
+    height: 300px;
+}
+
+#diva_cm{
+    width: 300cm;
+    background-color: greenyellow;
+    height: 300cm;
+}
+#diva_mp{
+    width: 300mp;
+    background-color: blue;
+    height: 300mp;
+}
+#diva_in{
+    width: 300in;
+    background-color: red;
+    height: 300in;
+}
+
+#divo_porc{
+    width: 25%;
+    background-color: rgb(174, 5, 203);
+    height: 100px;
+}
+
+#divo_em{
+    width: 25%;
+    background-color: rgb(17, 212, 250);
+    height: 100px;
+    font-size: 2.0em;
+}
+
+#divo_rem{
+    width: 25%;
+    background-color: rgb(67, 5, 5);
+    height: 100px;
+    font-size: 5.0rem;
+}
+
+#divo_vh{
+    width: 100px;
+    height: 25vh;
+    background-color: darkslategrey;
+}
+
+#divo_vw{
+    width: 25vw;
+    height: 100px;
+    background-color: chocolate;
+
 }
