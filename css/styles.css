@@ -1,0 +1,86 @@
+#MeuID{
+    background-color: lightgoldenrodyellow;
+    height: 100px;
+    width: 300px;
+    border: 10px solid;
+    font-size: 29px;
+
+    
+
+}
+.MinhaClasse{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    border: 10px solid;
+    font-size: 29px;
+}
+
+div{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    border: 10px solid;
+    font-weight: bold;
+    font-size: 32px
+}
+p.div3{
+    color: crimson;
+}
+div>p{
+    color: rgb(0, 0, 0);
+    
+}
+.MinhaClasse .div3{
+    color: crimson;
+    font-size: 32px;
+}
+
+#mt{
+    margin-top: 50px;
+}
+
+#mb{
+    margin-bottom: 25px;
+
+}
+#ml{
+    margin-left: 0px;
+}
+#mr{
+    margin-right: 100px;
+}
+#m-all{
+    margin: 100px, 50px, 100px, 50px;
+}
+#pt{
+    padding-top: 50px;
+}
+
+#pb{
+    padding-bottom: 25px;
+
+}
+#pl{
+    padding-left: 0px;
+}
+#pr{
+    padding-right: 100px;
+}
+#p-all{
+    padding: 100px, 50px, 100px, 50px;
+}
+
+.block-element{
+    display: block;
+}
+.inline-element{
+    display: inline;
+
+}
+.inline-block-element{
+    display: inline-block;
+}
+.none-element{
+    display: none;
+}
