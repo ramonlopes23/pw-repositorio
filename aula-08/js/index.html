@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url(../css/styles.css);
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Matricula de alunos</h1>
+        <form id="matricula-form">
+            <div class="form-group">
+                <label for="">Nome completo</label>
+                <input type="text" id="txtnome" required>
+            </div>
+            <div class="form-group">
+                <label for="">Data de Nascimento</label>
+                <input type="date" id="date_nasc" required>
+            </div>
+            <div class="form-group">
+                <label for="">Gênero</label>
+                <select name="" id="sel_gen" required>
+                    <option value="" disabled selected>Selecione um gênero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="indefinido">Prefiro não dizer</option>                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Curso</label>
+                <select name="" id="sel_curso" required>
+                    <option value="" disabled selected>Selecione um curso</option>
+                    <option value="ads">Análise e desenvolvimento de sistemas</option>
+                    <option value="gpi">Gestão de produção industrial</option>
+                    <option value="ge">Gestão empresarial</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Email</label>
+                <input type="email" id="txtemail" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>  
+</body>
+</html>
