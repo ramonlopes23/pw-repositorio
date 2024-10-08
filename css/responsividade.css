@@ -1,0 +1,16 @@
+@media only screen and(max-width:600px){
+    body{
+        font-size: 10px;
+        background-color: aqua;
+        color: aquamarine;
+    }
+
+}
+
+@media only screen and(max-width:601px){
+    body{
+        font-size: 30px;
+        background-color: green;
+        color: white;
+    }
+}
